@@ -5,7 +5,7 @@ The Weight Converter is a simple app that allows the user to convert pounds to g
 
 
 ## Technologies
-* HTTML%
+* HTTML5
 * CSS
 * JavaScript
 * Bootstrap
