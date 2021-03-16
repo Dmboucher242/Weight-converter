@@ -1,4 +1,26 @@
 h1{
-    color: red;
+    color: #592941;
+    font-family: 'Inconsolata', monospace;
+}
 
+body{
+    background-color: #586A6A;
+}
+
+.gs{
+    color: #592941;
+    font-family: 'Inconsolata', monospace;
+    background-color: #DAD4EF;
+}
+
+.kg{
+    color: #592941;
+    font-family: 'Inconsolata', monospace;
+    background-color: #D4C5C7;
+}
+
+.oz{
+    color: #592941;
+    font-family: 'Inconsolata', monospace;
+    background-color: #B9A394;
 }

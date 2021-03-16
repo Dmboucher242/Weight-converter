@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
     <title>Weight Converter </title>
 </head>
 
@@ -22,7 +24,7 @@
                     </div>
                 </form>
                 <div id="output">
-                    <div class="card mb-2">
+                    <div class="card mb-2 gs">
                         <div class="card-block">
                             <h4>Grams:</h4>
                             <div id="gramsOutput">
@@ -30,16 +32,16 @@
                         </div>
                     </div>
 
-                    <div class="card mb-2">
+                    <div class="card mb-2 kg">
                         <div class="card-block">
                             <h4>Kilograms:</h4>
                             <div id="kgOutput">
                             </div>
-                        </div> 
+                        </div>
                     </div>
 
 
-                    <div class="card  mb-2">
+                    <div class="card  mb-2 oz">
                         <div class="card-block">
                             <h4>Ounces:</h4>
                             <div id="ozOutput">
@@ -52,18 +54,17 @@
         </div>
     </div>
 
-<script>
-    document.getElementById('output').style.visibilty = 'hidden';
+    <script>
 
-    document.getElementById('lbsInput').addEventListener('input', function(e){
-         let lbs = e.target.value;
-         document.getElementById('gramsOutput').innerHTML = lbs/0022046; 
+        document.getElementById('lbsInput').addEventListener('input', function (e) {
+            let lbs = e.target.value;
+            document.getElementById('gramsOutput').innerHTML = lbs / 0022046;
 
-         document.getElementById('kgOutput').innerHTML = lbs/2.2046; 
+            document.getElementById('kgOutput').innerHTML = lbs / 2.2046;
 
-         document.getElementById('ozOutput').innerHTML = lbs*16; 
-    })
-</script>
+            document.getElementById('ozOutput').innerHTML = lbs * 16;
+        })
+    </script>
 
 </body>
 
